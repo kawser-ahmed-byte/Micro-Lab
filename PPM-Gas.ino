@@ -28,6 +28,6 @@ void loop() {
     ratio = Rs/Ro; 
     float ppm = pow(10, ((log10(ratio)-b)/m)); 
     Serial.print("PPM: ");
-delay(1000); 
-Serial.println(ppm);
+    delay(1000); 
+    Serial.println(ppm);
 }
