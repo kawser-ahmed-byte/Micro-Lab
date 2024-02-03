@@ -11,10 +11,10 @@ const int sensorPin = A0;
 #define Ro 20 
 
 void setup() {
-Serial.begin(9600);
-Serial.println("MQ2 warming up!");
-delay(20000); 
-pinMode(sensorPin, INPUT);
+    Serial.begin(9600);
+    Serial.println("MQ2 warming up!");
+    delay(20000); 
+    pinMode(sensorPin, INPUT);
 }
 
 void loop() {
