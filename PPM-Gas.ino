@@ -24,8 +24,8 @@ void loop() {
     float sensorValue = analogRead(sensorPin);
     Serial.println(sensorValue);
     VRL = sensorValue * (5.0/1023.0); 
-Rs = ((5.0*RL));
-ratio = Rs/Ro; 
+    Rs = ((5.0*RL));
+    ratio = Rs/Ro; 
 float ppm = pow(10, ((log10(ratio)-b)/m)); 
 Serial.print("PPM: ");
 delay(1000); 
