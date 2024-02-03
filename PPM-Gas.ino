@@ -16,6 +16,7 @@ Serial.println("MQ2 warming up!");
 delay(20000); 
 pinMode(sensorPin, INPUT);
 }
+
 void loop() {
 float VRL; 
 float Rs; 
