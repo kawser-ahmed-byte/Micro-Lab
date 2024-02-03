@@ -1,5 +1,6 @@
 int analogVal;
 float x;
+
 void setup() {
   Serial.begin(9600);
   delay(2000);
