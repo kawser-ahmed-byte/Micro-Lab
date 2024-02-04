@@ -1,6 +1,5 @@
 #include<MQ2.h>
 
-
 const int sensorPin = A0;
 
 
