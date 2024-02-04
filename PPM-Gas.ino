@@ -23,6 +23,7 @@ void loop() {
     float ratio; 
     
     float sensorValue = analogRead(sensorPin);
+    
     Serial.println(sensorValue);
     VRL = sensorValue * (5.0/1023.0); 
     Rs = ((5.0*RL));
