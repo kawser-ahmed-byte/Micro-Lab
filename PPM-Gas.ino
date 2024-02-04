@@ -7,6 +7,7 @@ const int sensorPin = A0;
 #define m -0.263 
 
 #define b 0.42 
+
 #define Ro 20 
 
 void setup() {
